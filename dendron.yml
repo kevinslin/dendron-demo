@@ -82,7 +82,7 @@ preview:
     enableKatex: true
     automaticallyShowPreview: false
 publishing:
-    siteUrl: https://ccamara.github.io
+    siteUrl: https://kevinslin.github.io
     siteRootDir: docs
     assetsPrefix: /dendron-demo
     enableFMTitle: true
