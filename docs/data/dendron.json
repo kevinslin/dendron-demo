@@ -102,6 +102,9 @@
     "automaticallyShowPreview": false
   },
   "publishing": {
+    "siteUrl": "https://ccamara.github.io",
+    "siteRootDir": "docs",
+    "assetsPrefix": "/dendron-demo",
     "enableFMTitle": true,
     "enableNoteTitleForLink": true,
     "enableMermaid": true,
@@ -112,7 +115,6 @@
       "root"
     ],
     "writeStubs": false,
-    "siteRootDir": "docs",
     "seo": {
       "title": "Dendron",
       "description": "Personal Knowledge Space"
@@ -129,7 +131,6 @@
     "enableRandomlyColoredTags": true,
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
-    "siteUrl": "localhost:3000",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }

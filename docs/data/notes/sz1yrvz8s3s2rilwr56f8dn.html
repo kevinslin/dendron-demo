@@ -2,8 +2,17 @@
 <p>This is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.</p>
 <h2 id="step-by-step"><a aria-hidden="true" class="anchor-heading icon-link" href="#step-by-step"></a>Step by step</h2>
 <ol>
+<li>Use the following settings in <code>dendron.yml</code>:</li>
+</ol>
+<pre class="language-yaml"><code class="language-yaml"><span class="token key atrule">publishing</span><span class="token punctuation">:</span>
+    <span class="token key atrule">siteUrl</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//ccamara.github.io
+    <span class="token key atrule">siteRootDir</span><span class="token punctuation">:</span> docs
+    <span class="token key atrule">assetsPrefix</span><span class="token punctuation">:</span> /dendron<span class="token punctuation">-</span>demo
+</code></pre>
+<ol start="2">
 <li>Run <code>npx dendron publish build</code></li>
 <li>Export notes <code>npx dendron publish export</code></li>
+<li>Copy exports to repo <code>cp -r .next/out docs</code></li>
 </ol>
 <h2 id="lookup"><a aria-hidden="true" class="anchor-heading icon-link" href="#lookup"></a>Lookup</h2>
 <p>This section contains useful links to related resources.</p>
@@ -17,5 +26,5 @@
 <hr>
 <strong>Children</strong>
 <ol>
-<li><a href="/notes/hsxgxkfnorrrsttnddhkgr0">Doc</a></li>
+<li><a href="/dendron-demo/notes/j6s689f46haz69i3b97460a">Doc</a></li>
 </ol>

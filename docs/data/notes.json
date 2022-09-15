@@ -11,8 +11,8 @@
       "title": "This page has not yet sprouted",
       "schemaStub": false,
       "type": "note",
-      "updated": 1663265597420,
-      "created": 1663265597420,
+      "updated": 1663267474194,
+      "created": 1663267474194,
       "desc": "",
       "links": [],
       "anchors": {},
@@ -24,7 +24,7 @@
       "id": "sz1yrvz8s3s2rilwr56f8dn",
       "title": "Root",
       "desc": "",
-      "updated": 1663265548757,
+      "updated": 1663267449652,
       "created": 1663264918764,
       "custom": {
         "nav_order": 0,
@@ -37,7 +37,7 @@
         "selfContained": true,
         "name": "dendron-demo"
       },
-      "contentHash": "8b7118c4a126fda0609752c09059d18c",
+      "contentHash": "4ae9e109e87ab891abf92198d8c812f2",
       "links": [],
       "anchors": {
         "step-by-step": {
@@ -52,18 +52,18 @@
           "type": "header",
           "text": "Lookup",
           "value": "lookup",
-          "line": 15,
+          "line": 23,
           "column": 0,
           "depth": 2
         }
       },
       "children": [
-        "hsxgxkfnorrrsttnddhkgr0"
+        "j6s689f46haz69i3b97460a"
       ],
       "parent": null,
       "data": {}
     },
-    "hsxgxkfnorrrsttnddhkgr0": {
+    "j6s689f46haz69i3b97460a": {
       "fname": "doc",
       "stub": true,
       "vault": {
@@ -73,9 +73,9 @@
       },
       "schemaStub": false,
       "type": "note",
-      "updated": 1663265597353,
-      "created": 1663265597353,
-      "id": "hsxgxkfnorrrsttnddhkgr0",
+      "updated": 1663267474111,
+      "created": 1663267474111,
+      "id": "j6s689f46haz69i3b97460a",
       "desc": "",
       "links": [],
       "anchors": {},
@@ -104,7 +104,7 @@
       "links": [],
       "anchors": {},
       "children": [],
-      "parent": "hsxgxkfnorrrsttnddhkgr0",
+      "parent": "j6s689f46haz69i3b97460a",
       "data": {}
     }
   },
@@ -113,7 +113,7 @@
       "id": "sz1yrvz8s3s2rilwr56f8dn",
       "title": "Root",
       "desc": "",
-      "updated": 1663265548757,
+      "updated": 1663267449652,
       "created": 1663264918764,
       "custom": {
         "nav_order": 0,
@@ -126,7 +126,7 @@
         "selfContained": true,
         "name": "dendron-demo"
       },
-      "contentHash": "8b7118c4a126fda0609752c09059d18c",
+      "contentHash": "4ae9e109e87ab891abf92198d8c812f2",
       "links": [],
       "anchors": {
         "step-by-step": {
@@ -141,24 +141,24 @@
           "type": "header",
           "text": "Lookup",
           "value": "lookup",
-          "line": 15,
+          "line": 23,
           "column": 0,
           "depth": 2
         }
       },
       "children": [
-        "hsxgxkfnorrrsttnddhkgr0"
+        "j6s689f46haz69i3b97460a"
       ],
       "parent": null,
       "data": {},
-      "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Run `npx dendron publish build`\n2. Export notes `npx dendron publish export`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
+      "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Use the following settings in `dendron.yml`:\n```yaml\npublishing:\n    siteUrl: https://ccamara.github.io\n    siteRootDir: docs\n    assetsPrefix: /dendron-demo\n```\n2. Run `npx dendron publish build`\n3. Export notes `npx dendron publish export`\n4. Copy exports to repo `cp -r .next/out docs`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
     }
   ],
   "noteIndex": {
     "id": "sz1yrvz8s3s2rilwr56f8dn",
     "title": "Root",
     "desc": "",
-    "updated": 1663265548757,
+    "updated": 1663267449652,
     "created": 1663264918764,
     "custom": {
       "nav_order": 0,
@@ -171,7 +171,7 @@
       "selfContained": true,
       "name": "dendron-demo"
     },
-    "contentHash": "8b7118c4a126fda0609752c09059d18c",
+    "contentHash": "4ae9e109e87ab891abf92198d8c812f2",
     "links": [],
     "anchors": {
       "step-by-step": {
@@ -186,17 +186,17 @@
         "type": "header",
         "text": "Lookup",
         "value": "lookup",
-        "line": 15,
+        "line": 23,
         "column": 0,
         "depth": 2
       }
     },
     "children": [
-      "hsxgxkfnorrrsttnddhkgr0"
+      "j6s689f46haz69i3b97460a"
     ],
     "parent": null,
     "data": {},
-    "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Run `npx dendron publish build`\n2. Export notes `npx dendron publish export`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
+    "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Use the following settings in `dendron.yml`:\n```yaml\npublishing:\n    siteUrl: https://ccamara.github.io\n    siteRootDir: docs\n    assetsPrefix: /dendron-demo\n```\n2. Run `npx dendron publish build`\n3. Export notes `npx dendron publish export`\n4. Copy exports to repo `cp -r .next/out docs`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
   },
   "vaults": [
     {

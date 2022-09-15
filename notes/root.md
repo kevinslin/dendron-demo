@@ -2,7 +2,7 @@
 id: sz1yrvz8s3s2rilwr56f8dn
 title: Root
 desc: ''
-updated: 1663267234814
+updated: 1663267449652
 created: 1663264918764
 ---
 
@@ -12,7 +12,10 @@ This is to test dendron publishing a site locally and then pushing it to a githu
 
 1. Use the following settings in `dendron.yml`:
 ```yaml
-
+publishing:
+    siteUrl: https://ccamara.github.io
+    siteRootDir: docs
+    assetsPrefix: /dendron-demo
 ```
 2. Run `npx dendron publish build`
 3. Export notes `npx dendron publish export`
