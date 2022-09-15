@@ -1,0 +1,39 @@
+{
+  "roots": [
+    {
+      "key": "sz1yrvz8s3s2rilwr56f8dn",
+      "title": "Root",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "dendron-demo",
+      "navExclude": false,
+      "children": [
+        {
+          "key": "hsxgxkfnorrrsttnddhkgr0",
+          "title": "Doc",
+          "icon": "plusOutlined",
+          "hasTitleNumberOutlined": false,
+          "vaultName": "dendron-demo",
+          "navExclude": false,
+          "children": [
+            {
+              "key": "ixj4mrgu99ih2slu8k3l5uh",
+              "title": "Publishing",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "dendron-demo",
+              "navExclude": false,
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "403": null,
+    "sz1yrvz8s3s2rilwr56f8dn": null,
+    "hsxgxkfnorrrsttnddhkgr0": "sz1yrvz8s3s2rilwr56f8dn",
+    "ixj4mrgu99ih2slu8k3l5uh": "hsxgxkfnorrrsttnddhkgr0"
+  }
+}

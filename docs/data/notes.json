@@ -1,0 +1,208 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "dendron-demo"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1663265597420,
+      "created": 1663265597420,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "sz1yrvz8s3s2rilwr56f8dn": {
+      "id": "sz1yrvz8s3s2rilwr56f8dn",
+      "title": "Root",
+      "desc": "",
+      "updated": 1663265548757,
+      "created": 1663264918764,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "dendron-demo"
+      },
+      "contentHash": "8b7118c4a126fda0609752c09059d18c",
+      "links": [],
+      "anchors": {
+        "step-by-step": {
+          "type": "header",
+          "text": "Step by step",
+          "value": "step-by-step",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "hsxgxkfnorrrsttnddhkgr0"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "hsxgxkfnorrrsttnddhkgr0": {
+      "fname": "doc",
+      "stub": true,
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "dendron-demo"
+      },
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1663265597353,
+      "created": 1663265597353,
+      "id": "hsxgxkfnorrrsttnddhkgr0",
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "ixj4mrgu99ih2slu8k3l5uh"
+      ],
+      "parent": "sz1yrvz8s3s2rilwr56f8dn",
+      "data": {},
+      "title": "Doc"
+    },
+    "ixj4mrgu99ih2slu8k3l5uh": {
+      "id": "ixj4mrgu99ih2slu8k3l5uh",
+      "title": "Publishing",
+      "desc": "",
+      "updated": 1663265027526,
+      "created": 1663264962117,
+      "custom": {},
+      "fname": "doc.publishing",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "dendron-demo"
+      },
+      "contentHash": "01f04a2ed8db6e7b8194dd51c4bf40b9",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": "hsxgxkfnorrrsttnddhkgr0",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "sz1yrvz8s3s2rilwr56f8dn",
+      "title": "Root",
+      "desc": "",
+      "updated": 1663265548757,
+      "created": 1663264918764,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": ".",
+        "selfContained": true,
+        "name": "dendron-demo"
+      },
+      "contentHash": "8b7118c4a126fda0609752c09059d18c",
+      "links": [],
+      "anchors": {
+        "step-by-step": {
+          "type": "header",
+          "text": "Step by step",
+          "value": "step-by-step",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "lookup": {
+          "type": "header",
+          "text": "Lookup",
+          "value": "lookup",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "hsxgxkfnorrrsttnddhkgr0"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Run `npx dendron publish build`\n2. Export notes `npx dendron publish export`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
+    }
+  ],
+  "noteIndex": {
+    "id": "sz1yrvz8s3s2rilwr56f8dn",
+    "title": "Root",
+    "desc": "",
+    "updated": 1663265548757,
+    "created": 1663264918764,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "dendron-demo"
+    },
+    "contentHash": "8b7118c4a126fda0609752c09059d18c",
+    "links": [],
+    "anchors": {
+      "step-by-step": {
+        "type": "header",
+        "text": "Step by step",
+        "value": "step-by-step",
+        "line": 10,
+        "column": 0,
+        "depth": 2
+      },
+      "lookup": {
+        "type": "header",
+        "text": "Lookup",
+        "value": "lookup",
+        "line": 15,
+        "column": 0,
+        "depth": 2
+      }
+    },
+    "children": [
+      "hsxgxkfnorrrsttnddhkgr0"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\nThis is to test dendron publishing a site locally and then pushing it to a github repo without CI and accessing the webpage from gh-pages.\n\n## Step by step\n\n1. Run `npx dendron publish build`\n2. Export notes `npx dendron publish export`\n\n## Lookup\n\nThis section contains useful links to related resources.\n\n- [Getting Started Guide](https://link.dendron.so/6b25)\n- [Discord](https://link.dendron.so/6b23)\n- [Home Page](https://wiki.dendron.so/)\n- [Github](https://link.dendron.so/6b24)\n- [Developer Docs](https://docs.dendron.so/)"
+  },
+  "vaults": [
+    {
+      "fsPath": ".",
+      "selfContained": true,
+      "name": "dendron-demo"
+    }
+  ]
+}
